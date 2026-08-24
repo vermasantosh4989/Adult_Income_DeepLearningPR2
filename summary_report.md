@@ -342,14 +342,14 @@ The notebook generates a final comparison table containing:
 
 | Model / Experiment | Accuracy | Precision | Recall | F1-Score | PR-AUC | ROC-AUC |
 |---|---:|---:|---:|---:|---:|---:|
-| Baseline ANN | ReLU | 0.84 | 0.69 | 0.62 | 0.65 | 0.74 | 0.89 | 
-| Best Activation | Sigmoid | 0.85 | 0.72 | 0.65 | 0.68 | 0.78 | -- |
-| Best Initializer | glorot_uniform | 0.84 | 0.70 | 0.62 | 0.66 | 0.74 | -- |
-| Weighted BCE | BCE | 0.80 | 0.58 | 0.79 | 0.61 | 0.74 | -- |
-| Focal Loss | BCE | 0.83 | 0.69 | 0.62 | 0.66 | 0.74 | -- |
-| Batch Normalization | BatchNorm | 0.84 | 0.70 | 0.60 | 0.65 | 0.75 | -- |
-| Best Optimizer | SGD | 0.85 | 0.72 | 0.64 | 0.68 | 0.77 | 0.90 |
-| Final ANN | ReLU | 0.80 | 0.56 | 0.81 | 0.66 | 0.74 | 0.89 |
+| Baseline ANN | 0.84 | 0.69 | 0.62 | 0.65 | 0.74 | 0.89 | 
+| Best Activation | 0.85 | 0.72 | 0.65 | 0.68 | 0.78 | -- |
+| Best Initializer | 0.84 | 0.70 | 0.62 | 0.66 | 0.74 | -- |
+| Weighted BCE | 0.80 | 0.58 | 0.79 | 0.61 | 0.74 | -- |
+| Focal Loss | 0.83 | 0.69 | 0.62 | 0.66 | 0.74 | -- |
+| Batch Normalization | 0.84 | 0.70 | 0.60 | 0.65 | 0.75 | -- |
+| Best Optimizer | 0.85 | 0.72 | 0.64 | 0.68 | 0.77 | 0.90 |
+| Final ANN | 0.80 | 0.56 | 0.81 | 0.66 | 0.74 | 0.89 |
 
 
 ## 16. Overall Findings
